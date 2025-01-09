@@ -2,22 +2,32 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Aulas</title>
+    <link rel="stylesheet" href="Css/styleGlobal.css">
+    <title>Pagina de Cadastro</title>
 </head>
 <body>
-    <h1>Cadastro de Usuários</h1>
     <form>
-            <label>Nome:<label>
-                <input type="text" name="nome"><br>
-            <label>Endereço:</label>
-                <input type="text" name="endereço"><br>
-            <label>Email:</label>
-                <input type="text" name="email"><br>
-            <label>Cidade:</label>
-                <input type="text" name="cidade"><br>
-            <label>Estado:</label>
-            <select name="Estado">
+        <fieldset>
+            <legend><b>Cadastro de Usuários</b></legend><br>
+            <div class="inputBox">
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+                <label for="nome" class="labelInput">Nome Completo</label>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="email" id="email" class="inputUser" required>
+                <label for="nome" class="labelInput">Email</label>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="endereço" id="endereço" class="inputUser" required>
+                <label for="nome" class="labelInput">Endereço</label>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                <label for="nome" class="labelInput">Cidade</label>
+            </div>
+            
+            <label >Estado:</label>
+            <select name="Estado" required>
                 <option value="">Acre</option>
                 <option value="">Alagoas</option>
                 <option value="">Amapá</option>
@@ -46,28 +56,43 @@
                 <option value="">Sergipe</option>
                 <option value="">Tocantis</option>
             </select><br>
-            <label>Sexo:</label>
-            <input type="radio" name="cargo" id="">Masculino
-            <input type="radio" name="cargo" id="">Feminino <br>
-            <label>Gêneros de Filmes preferidos</label>
-            <input type="checkbox">Ação
-            <input type="checkbox">Anime
-            <input type="checkbox">Aventura
-            <input type="checkbox">Comédia
-            <input type="checkbox">Suspense
-            <input type="checkbox">Terror
-            <input type="checkbox">Corrida
-            <input type="checkbox">Drama
-            <input type="checkbox">Esportes
 
-            <br><label>Usuário:</label>
-                <input type="text">
-            <br><label>Senha:</label>
-                <input type="text"><br>
+            <p>Sexo:</p>
+            <input type="radio" name="genero" id="masculino" value="masculino" required>
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="feminino" value="feminino" required>
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" id="outro" value="outro" required>
+            <label for="outro">Outro</label>
+            <br>
+
+            <p>Gêneros Preferidos:</p>
+            <input type="checkbox">Ação<br>
+            <input type="checkbox">Anime<br>
+            <input type="checkbox">Aventura<br>
+            <input type="checkbox">Comédia<br>
+            <input type="checkbox">Suspense<br>
+            <input type="checkbox">Terror<br>
+            <input type="checkbox">Corrida<br>
+            <input type="checkbox">Drama<br>
+            <input type="checkbox">Esportes<br>
+            <br>
+            
+            <div class="inputBox">
+                <input type="text" name="usuário" id="usuário" class="inputUser" required>
+                <label for="usuário" class="labelInput">Usuário</label>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="senha" id="senha" class="inputUser" required>
+                <label for="senha" class="labelInput">Senha</label>
+            </div>
+            <br>
+
+            <input type="submit" id="cancelar" value="Cancelar" class="botao">
+            <input type="submit" id="limpar" value="Limpar" class="botao">
+            <input type="submit" id="cadastro" value="Cadastrar" class="botao"><br>
+            <a href="">Voltar</a>
+        </fieldset>
     </form>
-    <button>Cancelar</button>
-    <button>Limpar</button>
-    <button>Cadastrar</button>
-    <a href="index.html">Voltar</a>
 </body>
 </html>
