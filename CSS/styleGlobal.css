@@ -1,0 +1,14 @@
+@import url(cadastro.css);
+*{
+    padding: 5px 10px;
+}
+
+header{
+    padding: 10px 20px;
+}
+header ul, li{
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    text-decoration: underline solid 2px black;
+}
