@@ -176,6 +176,7 @@ header img{
     height: 400px;
     align-self: center;
 }
+
 .pessoal{
     padding: 10px;
     margin: 0;
@@ -186,14 +187,16 @@ header img{
     flex-grow: 1;
 }
 .Gaby img{
-    
     width: 560px;
     height: 400px;
 }
-.Gabriel{
-    width: 560px;
-    height: 400px;
+.Criadores{
+    font-size: 40px;
+    text-decoration: underline 2px;
+    text-align: center;
+    color: var(--cor-contraste);
 }
+
 .contato{
     margin-top: auto;
 }
