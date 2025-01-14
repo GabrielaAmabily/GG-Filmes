@@ -155,13 +155,34 @@ header img{
 }
 
 .apresentação{
+    padding: 10px;
     color: var(--cor-contraste);
     display: flex;
     text-align: center;
     font-size: 18px;
 }
 .apresentação img{
+    border: solid var(--cor-primaria) 1px;
+    border-radius: 50%;
+    background-color: var(--cor-primaria);
     width: 400px;
     height: 400px;
     align-self: center;
+}
+.pessoal{
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: var(--cor-contraste);
+}
+.Gaby img{
+    width: 560px;
+    height: 400px;
+}
+.Gabriel{
+    width: 500px;
+    height: 300px;
+    margin-top: 60px;
 }
