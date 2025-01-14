@@ -9,24 +9,38 @@
 <body>
     <header>
         <img src="img\logo_semfundo_gabs.png" alt="" class="index-foto">
-        <h1>Bem-vindo à GG Filmes – Sua Experiência Cinematográfica Começa Aqui!</h1>
+        <h1>Bem-vindo à GG Filmes - Sua Experiência Cinematográfica Começa Aqui!</h1>
         <h3>Faça login para iniciar</h3>
     </header>
-    <form>
-        <fieldset>
-            <label>Usuário: </label>
-            <input type="text" name="nome">
-            <br>
-            <label>Senha: </label>
-            <input type="text" name="senha">
-        </fieldset>
-    </form>
-    <button>Entrar</button>
-    <a href='cadastro.html'><button>Cadastro</button></a>
-    <a href="principal.html">Entrar</a>
+    <div class="login">
+        <form>
+            <fieldset>
+                <div class="inputBox">
+                    <input type="text" name="usuario" id="usuario" class="inputUser" required>
+                    <label  class="labelInput">Usuário:</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="senha" id="senha" class="inputUser" required>
+                    <label for="senha" class="labelInput">Senha:</label>
+                </div>
+
+                <div class="saidas">
+                    <a href="index.html">
+                        <input type="submit" id="entrar" value="Entrar" class="botao">
+                    </a>
+                    <a href="cadastro.html">
+                        <input type="button" id="cadastro" value="Cadastro" class="botao">
+                    </a>
+                    <br>
+                    <a href="principal.html">Entrar</a>
+                
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>
+        <b>Instituto Federal do Sul de Minas Gerais - 2025 
+        Alunos: Gabriela Amabily & Gabriel de Mello.</b>
+    </footer>
 </body>
-<footer>
-    <b>Instituto Federal do Sul de Minas Gerais - 2025 
-    Alunos: Gabriela Amabily & Gabriel de Mello.</b>
-</footer>
 </html>

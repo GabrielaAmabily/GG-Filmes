@@ -16,6 +16,9 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor-secundaria);
     color: var(--cor-detalhe);
@@ -23,15 +26,17 @@ body {
 }
 
 footer{
+    margin-top: auto;
     padding: 20px;
     font-size: 20px;
     text-align: center;
     text-decoration: overline;
+    color: var(--cor-contraste);
 }
 
 form {
     background-color: var(--cor-contraste);
-    position: absolute;
+    position: relative;
     width: 500px;
     margin-left: 35%;
     border-radius: 20px;
@@ -178,6 +183,7 @@ header img{
     justify-content: space-evenly;
     font-size: 20px;
     color: var(--cor-contraste);
+    flex-grow: 1;
 }
 .Gaby img{
     
@@ -185,10 +191,16 @@ header img{
     height: 400px;
 }
 .Gabriel{
-    width: 500px;
-    height: 300px;
-    margin-top: 63px;
+    width: 560px;
+    height: 400px;
 }
 .contato{
-    margin-top: 50px;
+    margin-top: auto;
+}
+
+.login{
+    padding: 10px;
+    
+    display: flex;
+    justify-content: space-between;
 }
