@@ -21,6 +21,7 @@ body {
     color: var(--cor-detalhe);
     line-height: 1.6;
 }
+
 footer{
     padding: 20px;
     font-size: 20px;
@@ -55,6 +56,7 @@ fieldset {
 }
 
 .inputBox {
+    color: var(--cor-secundaria);
     position: relative;
     padding: 15px;
 }
@@ -178,11 +180,15 @@ header img{
     color: var(--cor-contraste);
 }
 .Gaby img{
+    
     width: 560px;
     height: 400px;
 }
 .Gabriel{
     width: 500px;
     height: 300px;
-    margin-top: 60px;
+    margin-top: 63px;
+}
+.contato{
+    margin-top: 50px;
 }
