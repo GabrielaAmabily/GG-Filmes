@@ -24,6 +24,7 @@ body {
     color: var(--cor-detalhe);
     line-height: 1.6;
 }
+
 header {
     background-color: var(--cor-primaria);
     /*background-color: #232e31;*/
@@ -159,7 +160,6 @@ fieldset {
 .botao:hover {
     background-color: var(--cor-secundaria);
 }
-
 
 a {
     font-size: 20px;
