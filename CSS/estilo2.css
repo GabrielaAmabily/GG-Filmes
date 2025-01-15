@@ -1,5 +1,3 @@
-/* CSS atualizado com base no seu código original e adaptado para o estilo e cores da identidade visual */
-
 /* Variáveis de cores baseadas na logo */
 :root {
     --cor-primaria: #27B9A5; /* Verde água da logo */
@@ -174,6 +172,43 @@ a:hover {
 
 .saidas {
     text-align: center;
+}
+
+.principal {
+    font-family: 'Poppins', sans-serif;
+    color: var(--cor-contraste);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%; 
+    line-height: 1.8;
+    text-align: center;
+}
+
+.principal strong {
+    font-weight: 900;
+    color: #27B9A5; 
+}
+
+.principal em {
+    font-style: italic;
+    color: #27B9A5; 
+}
+
+.principal .menos-expressivo {
+    font-size: 0.9em; /* Menor que o texto normal */
+    color: var(--cor-contraste);
+}
+
+.principal p {
+    margin: 0 0 15px;
+}
+
+.principal .destaque {
+    font-size: 1.5em; 
+    font-weight: 600; 
+    color: #27B9A5;
+    margin-bottom: 15px;
 }
 
 .apresentação{
