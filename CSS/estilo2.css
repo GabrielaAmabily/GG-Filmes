@@ -337,8 +337,6 @@ main{
 .trailers:nth-child(7){
     grid-row: 2;
 }
-
-
 .trailers:nth-child(9),
 .trailers:nth-child(8),
 .trailers:nth-child(10){
@@ -346,14 +344,14 @@ main{
 }
 
 .trailers iframe {
-    width: 300px; /* Para responsividade */
-    height: 200px; /* Ajuste a altura conforme necessário */
-    border-radius: 10px; /* Borda arredondada para estilo */
+    width: 300px; 
+    height: 200px; 
+    border-radius: 10px;
 }
 .trailers h2 {
     text-align: center;
     margin-bottom: 10px;
-    color: var(--cor-primaria); /* Adiciona cor ao título */
+    color: var(--cor-primaria);
 }
 .trailers span{
     color: var(--cor-secundaria);
