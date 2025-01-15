@@ -288,3 +288,44 @@ a:hover {
     width: 193px;
     height: 261px;
 }
+
+
+/*filmes*/
+.filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie {
+    text-align: center;
+    width: 30%; /* Controla a largura de cada filme */
+    background-color: var(--cor-secundaria);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.movie a {
+    text-decoration: none;
+    color: var(--cor-contraste);
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.movie a:hover {
+    color:  #27B9A5;
+    transform: scale(1.1);
+}
