@@ -75,12 +75,24 @@ footer{
     text-decoration: overline;
     color: var(--cor-contraste);
 }
+footer img{
+    width: 100px;
+    height: 100px;
+    border: solid 2px var(--cor-secundaria);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    margin-bottom: 5px;
+}
 
 form {
     background-color: var(--cor-contraste);
     position: relative;
     width: 500px;
-    margin-left: 35%;
+    margin-left: 34%;
+    margin: auto;
     margin-top: 20px;
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -186,12 +198,12 @@ a:hover {
 
 .principal strong {
     font-weight: 900;
-    color: #27B9A5; 
+    color: var(--cor-primaria); 
 }
 
 .principal em {
     font-style: italic;
-    color: #27B9A5; 
+    color: var(--cor-primaria); 
 }
 
 .principal .menos-expressivo {
@@ -206,7 +218,7 @@ a:hover {
 .principal .destaque {
     font-size: 1.5em; 
     font-weight: 600; 
-    color: #27B9A5;
+    color: var(--cor-primaria);
     margin-bottom: 15px;
 }
 
@@ -242,7 +254,7 @@ a:hover {
     width: 300px;
     height: 300px;
     border-radius: 50%; /* Foto redonda */
-    border: 5px solid #27B9A5; /* Rosa pastel */
+    border: 5px solid var(--cor-primaria); /* Rosa pastel */
     object-fit: cover; /* Para centralizar e ajustar a imagem na borda */
 }
 .Gabriel img{
@@ -251,11 +263,9 @@ a:hover {
     width: 300px;
     height: 300px;
     border-radius: 50%; /* Foto redonda */
-    border: 5px solid #27B9A5; /* Rosa pastel */
+    border: 5px solid var(--cor-primaria); /* Rosa pastel */
     object-fit: cover; /* Para centralizar e ajustar a imagem na borda */
 }
-
-
 
 .Criadores{
     font-size: 40px;
@@ -272,4 +282,9 @@ a:hover {
     padding: 10px;
     position: relative;
     margin-top: auto;
+}
+
+.cincopassos{
+    width: 193px;
+    height: 261px;
 }
