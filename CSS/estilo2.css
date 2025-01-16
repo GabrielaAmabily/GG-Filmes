@@ -353,10 +353,11 @@ main{
     align-items: center;
     padding: 10px;
 }
-.generos-filmes ul,li,a{
+.generos-filmes ul,li >a{
     display: flex;
     position: relative;
     justify-content: space-around;
+    list-style: none;
 }
 .generos-filmes a{
     color: var(--cor-contraste);
@@ -367,4 +368,17 @@ main{
 .generos-filmes a:hover{
     color: var(--cor-primaria);
     transform: scale(1.1);
+}
+
+.para-login{
+    margin-left: 60px;
+    padding: 5px;
+    font-size: 25px;
+    background-color: var(--cor-secundaria) ;
+    border-radius: 10px;
+}
+.para-login:hover{
+    color: var(--cor-primaria);
+    text-decoration: underline;
+    transition: 0.3s;
 }
