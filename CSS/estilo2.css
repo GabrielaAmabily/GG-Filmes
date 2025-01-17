@@ -13,12 +13,13 @@
     box-sizing: border-box;
 }
 
+/*Estilização Gerais e Formulários*/
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom, rgba(24, 109, 99, 0.723),rgba(37, 43, 46, 0.466), rgb(55, 60, 58));
+    background: linear-gradient(to bottom, rgba(39, 185, 165, 0.723),rgba(37, 43, 46, 0.466), rgb(55, 60, 58));
     background-color: var(--cor-secundaria);
     color: var(--cor-detalhe);
     line-height: 1.6;
@@ -162,6 +163,37 @@ fieldset {
     background-color: var(--cor-secundaria);
 }
 
+.login{
+    padding: 10px;
+    position: relative;
+    margin-top: auto;
+}
+.para-login{
+    margin-left: 60px;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.para-login:hover{
+    color: var(--cor-primaria);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.background-img{
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.background-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+}
+
 a {
     font-size: 20px;
     text-decoration: none;
@@ -172,11 +204,17 @@ a {
 a:hover {
     color: var(--cor-secundaria);
 }
+/*Pagina Contato*/
+.contato{
+    margin-top: auto;
+}
 
-.saidas {
+/*Pagina login*/
+.pag-login {
     text-align: center;
 }
 
+/*Pagina principal*/
 .principal {
     font-family: 'Poppins', sans-serif;
     color: var(--cor-contraste);
@@ -214,22 +252,7 @@ a:hover {
     margin-bottom: 15px;
 }
 
-.apresentação{
-    padding: 10px;
-    color: var(--cor-contraste);
-    display: flex;
-    text-align: center;
-    font-size: 18px;
-}
-.apresentação img{
-    border: solid var(--cor-primaria) 1px;
-    border-radius: 50%;
-    background-color: var(--cor-primaria);
-    width: 400px;
-    height: 400px;
-    align-self: center;
-}
-
+/*Pagina Sobre*/
 .pessoal{
     padding: 10px;
     margin: 0;
@@ -266,17 +289,33 @@ a:hover {
     color: var(--cor-contraste);
 }
 
-.contato{
-    margin-top: auto;
-}
-
-.login{
+/*Pagina dos filmes*/
+.generos-filmes {
+    display: inline-block;
+    align-items: center;
     padding: 10px;
+}
+.generos-filmes ul,li >a{
+    display: flex;
     position: relative;
-    margin-top: auto;
+    justify-content: space-around;
+    list-style: none;
+}
+.generos-filmes a{
+    color: var(--cor-contraste);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    transition: color 0.5s, transform 0.3s;
+    transition: 0.5s;
+}
+.generos-filmes a:hover{
+    color: var(--cor-primaria);
+    text-decoration: underline var(--cor-primaria);
+    font-size: 30px;
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
-/*filmes*/
 .filmes {
     display: flex;
     flex-wrap: wrap;
@@ -316,6 +355,7 @@ a:hover {
     transform: scale(1.05);
 }
 
+/*Pagina dos trailers*/
 main{
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
@@ -349,58 +389,7 @@ main{
     color: var(--cor-secundaria);
 }
 
-.generos-filmes {
-    display: inline-block;
-    align-items: center;
-    padding: 10px;
-}
-.generos-filmes ul,li >a{
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-    list-style: none;
-}
-.generos-filmes a{
-    color: var(--cor-contraste);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    transition: color 0.5s, transform 0.3s;
-    transition: 0.5s;
-}
-.generos-filmes a:hover{
-    color: var(--cor-primaria);
-    text-decoration: underline var(--cor-primaria);
-    font-size: 30px;
-    transition: 0.5s;
-    transform: scale(1.1);
-}
-
-.para-login{
-    margin-left: 60px;
-    padding: 5px;
-    font-size: 25px;
-    border-radius: 10px;
-}
-.para-login:hover{
-    color: var(--cor-primaria);
-    text-decoration: underline;
-    transition: 0.3s;
-}
-
-.background-img{
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-}
-.background-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.1;
-}
-
+/*Paginas de Cada filme*/
 .img-filme{
     margin: 0;
     padding: 20px;
