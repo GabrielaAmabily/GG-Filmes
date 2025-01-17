@@ -485,3 +485,73 @@ main{
     transform-origin: left;
     transition: transform 0.5s;
 }
+
+/*pagina trilha sonora*/
+.soundtrack-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.track {
+    background-color: var(--cor-secundaria);
+    border: 2px solid var(--cor-detalhe);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.track-title {
+    color: var(--cor-contraste);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+.track-title:hover {
+    color: var(--cor-primaria);
+}
+
+.audio-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.audio-controls button {
+    background-color: var(--cor-primaria);
+    color: var(--cor-contraste);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.audio-controls button:hover {
+    background-color: var(--cor-detalhe);
+}
+
+.audio-slider {
+    flex: 1;
+    height: 5px;
+    background-color: var(--cor-detalhe);
+    border-radius: 5px;
+    appearance: none;
+}
+
+.audio-slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--cor-primaria);
+    cursor: pointer;
+}
