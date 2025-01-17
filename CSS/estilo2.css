@@ -396,3 +396,12 @@ main{
     object-fit: cover;
     opacity: 0.1;
 }
+
+.cinco-passos{
+    margin: 0;
+    padding: 10px;
+}
+.cinco-passos img{
+    width: 300px;
+    height: 400px;
+}
