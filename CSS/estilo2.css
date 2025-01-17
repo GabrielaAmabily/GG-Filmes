@@ -1,9 +1,9 @@
-/* Variáveis de cores baseadas na logo */
+/* Variáveis de cores */
 :root {
-    --cor-primaria: #27B9A5; /* Verde água da logo */
-    --cor-secundaria: #3C3C3C; /* Cinza escuro */
-    --cor-contraste: #FFFFFF; /* Branco */
-    --cor-detalhe: #9E9E9E; /* Cinza claro */
+    --cor-primaria: #27B9A5; 
+    --cor-secundaria: #3C3C3C; 
+    --cor-contraste: #FFFFFF; 
+    --cor-detalhe: #9E9E9E; 
 }
 
 /* Reset básico */
@@ -199,7 +199,7 @@ a:hover {
 }
 
 .principal .menos-expressivo {
-    font-size: 0.9em; /* Menor que o texto normal */
+    font-size: 0.9em; 
     color: var(--cor-contraste);
 }
 
@@ -212,23 +212,6 @@ a:hover {
     font-weight: 600; 
     color: var(--cor-primaria);
     margin-bottom: 15px;
-}
-
-.descobrir{
-    color: var(--cor-secundaria);
-    padding: 15px;
-    margin: 0;
-    text-align: center;
-}
-.descobrir > a{
-    padding: 20px;
-    font-size: 28px;
-    background: linear-gradient(to top, var(--cor-detalhe), var(--cor-primaria));
-    border-radius: 20px;
-    text-decoration: var(--cor-contraste);
-}
-.descobrir > a:hover{
-    color: var(--cor-contraste);
 }
 
 .apresentação{
@@ -262,18 +245,18 @@ a:hover {
     margin: 30px auto;
     width: 300px;
     height: 300px;
-    border-radius: 50%; /* Foto redonda */
-    border: 5px solid var(--cor-primaria); /* Rosa pastel */
-    object-fit: cover; /* Para centralizar e ajustar a imagem na borda */
+    border-radius: 50%;
+    border: 5px solid var(--cor-primaria); 
+    object-fit: cover; 
 }
 .Gabriel img{
     display: block;
     margin: 30px auto;
     width: 300px;
     height: 300px;
-    border-radius: 50%; /* Foto redonda */
-    border: 5px solid var(--cor-primaria); /* Rosa pastel */
-    object-fit: cover; /* Para centralizar e ajustar a imagem na borda */
+    border-radius: 50%; 
+    border: 5px solid var(--cor-primaria); 
+    object-fit: cover; 
 }
 
 .Criadores{
@@ -304,7 +287,7 @@ a:hover {
 
 .movie {
     text-align: center;
-    width: 25%; /* Controla a largura de cada filme */
+    width: 25%; 
     background-color: var(--cor-secundaria);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -335,10 +318,10 @@ a:hover {
 
 main{
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 colunas na primeira linha */
-    gap: 10px; /* Espaço entre os trailers */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
     padding: 20px;
-    justify-items: center; /* Centraliza os itens */
+    justify-items: center; 
 }
 
 .trailers:nth-child(5),
@@ -486,7 +469,6 @@ main{
     transition: transform 0.5s;
 }
 
-/*pagina trilha sonora*/
 .soundtrack-container {
     padding: 20px;
     max-width: 800px;
