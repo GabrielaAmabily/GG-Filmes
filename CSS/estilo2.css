@@ -313,7 +313,7 @@ a:hover {
 
 .movie a:hover {
     color:  #27B9A5;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 main{
@@ -363,11 +363,15 @@ main{
 .generos-filmes a{
     color: var(--cor-contraste);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
-    transition: color 0.3s, transform 0.3s;
+    font-size: 25px;
+    transition: color 0.5s, transform 0.3s;
+    transition: 0.5s;
 }
 .generos-filmes a:hover{
     color: var(--cor-primaria);
+    text-decoration: underline var(--cor-primaria);
+    font-size: 30px;
+    transition: 0.5s;
     transform: scale(1.1);
 }
 
