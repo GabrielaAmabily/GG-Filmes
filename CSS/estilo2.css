@@ -397,11 +397,35 @@ main{
     opacity: 0.1;
 }
 
-.cinco-passos{
+.img-filme{
     margin: 0;
-    padding: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
 }
-.cinco-passos img{
-    width: 300px;
-    height: 400px;
+.img-filme img{
+    width: 450px;
+    height: 550px;
+    padding: 20px;
+    margin-left: 15%;
+}
+
+.conteudo{
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--cor-contraste);
+}
+.conteudo h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    color: var(--cor-contraste);
+}
+.conteudo h2{
+    margin-top: 5px;
+    font-size: 27px;
+}
+.conteudo p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
 }
