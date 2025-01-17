@@ -208,9 +208,9 @@ a:hover {
 }
 
 .principal .destaque {
-    font-size: 1.5em; 
+    font-size: 2em; 
     font-weight: 600; 
-    color: var(--cor-primaria);
+    color: white;
     margin-bottom: 15px;
 }
 
