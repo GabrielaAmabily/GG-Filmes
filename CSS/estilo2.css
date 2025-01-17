@@ -214,6 +214,23 @@ a:hover {
     margin-bottom: 15px;
 }
 
+.descobrir{
+    color: var(--cor-secundaria);
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
+.descobrir > a{
+    padding: 20px;
+    font-size: 28px;
+    background: linear-gradient(to top, var(--cor-detalhe), var(--cor-primaria));
+    border-radius: 20px;
+    text-decoration: var(--cor-contraste);
+}
+.descobrir > a:hover{
+    color: var(--cor-contraste);
+}
+
 .apresentação{
     padding: 10px;
     color: var(--cor-contraste);
